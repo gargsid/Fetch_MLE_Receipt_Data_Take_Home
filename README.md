@@ -6,11 +6,15 @@ We have used PyTorch to write the model that can run on CPU machine and the code
 
 First clone the repository using
 
-`git clone git@github.com:gargsid/receipt_data_prediction_app.git`
+```
+git clone git@github.com:gargsid/receipt_data_prediction_app.git
+```
 
 Then go into the directory 
 
-`cd receipt_data_prediction_app`
+```
+cd receipt_data_prediction_app
+```
 
 Install the requirements using 
 
