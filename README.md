@@ -22,7 +22,7 @@ Next, install the requirements
 pip install -r requirements.txt
 ```
 
-If you face any issues with running the code, you can also try replicating the environment using
+\[Optional] If you face any issues with running the code, you can also try replicating the environment using
 
 ```
 conda env create -f environment.yml
