@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 ## Training the models
 
-To train the models, run
+It is recommended to train the models on your machine to support different hardware. Training only takes 1-2 minutes. To train the models, just run
 
 ```
 python main.py
