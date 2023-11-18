@@ -1,5 +1,9 @@
 # Receipt Data Prediction
-Receipt data prediction of coming months of the year 2022 given the receipt for the year 2021. To follow the step-by-step walkthrough it is recommended to follow this [colab notebook](https://colab.research.google.com/drive/1ZFvFYzbbaIR9hoh6mW5QiG083GzhylmW?usp=sharing). It shows some data analysis and detailed descriptions of different functions. For only running the inference, please follow this brief [inference notebook](https://colab.research.google.com/drive/1jOHlJhDT6O6UBfSWkirRzZytYCTi6k1C?usp=sharing)
+Receipt data prediction of coming months of the year 2022 given the receipt for the year 2021. 
+
+To follow the step-by-step walkthrough it is recommended to follow this [colab notebook](https://colab.research.google.com/drive/1ZFvFYzbbaIR9hoh6mW5QiG083GzhylmW?usp=sharing). It shows some data analysis and detailed descriptions of different functions. 
+
+For only running the inference, please follow this brief [inference notebook](https://colab.research.google.com/drive/1jOHlJhDT6O6UBfSWkirRzZytYCTi6k1C?usp=sharing)
 
 ## Setting up. 
 We have used PyTorch to write the model that can run on CPU machine and the code can be run locally. 
