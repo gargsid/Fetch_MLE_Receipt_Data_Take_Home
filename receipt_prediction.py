@@ -71,7 +71,7 @@ def receipt_predictor_pipeline(seq_len, receipts):
     # print('preds:',[pred for pred in preds])
     print('rmse error:', error)
 
-def get_best_model(receipts):
+def get_best_model(receipts, show_plot=False):
     best_rmse = 1e8
     best_seq_len = None
 
@@ -103,6 +103,8 @@ def get_best_model(receipts):
     plt.xlabel('sequence_lengths')
     plt.ylabel('Validation RMSE values')
     plt.savefig('assets/val_rmse_values.png')
+    if show_plot:
+        plt.show()
     plt.close()
 
     return best_seq_len
